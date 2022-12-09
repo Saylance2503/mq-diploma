@@ -598,6 +598,10 @@ a {
   margin-right: 0;
 }
 
+.products-img-wrap {
+  width: 300px;
+}
+
 .products-img {
   display: block;
   position: relative;
