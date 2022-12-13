@@ -946,4 +946,147 @@ a {
 
 /* mobile */
 @media (max-width: 360px) {
+  .header {
+    background-image: url(../img/banner-mobile.jpg);
+  }
+
+  .header__wrapper {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  .header__logo-pic {
+    position: relative;
+    top: 215px;
+    left: 30px;
+    width: 27rem;
+    height: 6rem;
+  }
+
+  .title__wrapper {
+    font-size: 2.6rem;
+    margin-top: 165px;
+    margin-bottom: 209px;
+  }
+
+  .trend-card {
+    margin-top: 3px;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .wrap_trend {
+    margin-top: 40px;
+  }
+
+  .trend-img {
+    height: 232px;
+  }
+
+  .trend-title {
+    font-size: 1.6rem;
+  }
+
+  .trend-img-content {
+    padding: 17px 15px 24px;
+  }
+
+  .wrap-main {
+    flex-direction: column;
+  }
+
+  .wrap {
+    padding: 0 15px;
+  }
+
+  .cards :first-child {
+    margin-top: -3px;
+  }
+
+  .card {
+    margin-top: 60px;
+  }
+
+  .card-title {
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+
+  .card-date-avtor {
+    margin-top: 20px;
+  }
+
+  .card-text {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+
+  .card-img {
+    width: 330px;
+  }
+
+  .img-post {
+    width: 100%;
+  }
+
+  .card-content {
+    width: 330px;
+    max-width: 330px;
+  }
+
+  .aside {
+    margin-top: -10px;
+    margin-left: 0;
+    margin-bottom: 40px;
+    max-width: 33rem;
+  }
+
+  .cards-news {
+    margin: 20px 0 0 0;
+  }
+
+  .card-news-content {
+    max-width: 238px;
+  }
+
+  .aside-title {
+    font-size: 1.6rem;
+  }
+
+  .field {
+    width: 282px;
+  }
+
+  .mailinglist-title,
+  .tags-title,
+  .topics-title {
+    margin-top: 40px;
+  }
+
+  .mailinglist-form {
+    margin-top: 18px;
+  }
+
+  .tag-list__item {
+    padding: 3px 13px;
+  }
+
+  .produts-title {
+    font-size: 1.6rem;
+  }
+
+  .products-body {
+    padding: 40px 21px 0px 20px;
+  }
+
+  .products-body2 {
+    padding-bottom: 35px;
+  }
+
+  .products-body3 {
+    padding-bottom: 25px;
+  }
 }
