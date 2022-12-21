@@ -1044,8 +1044,38 @@ a {
 }
 
 @media (max-width: 1023px) {
+  .wrap {
+    padding: 0 15px;
+  }
+
   .wrap-main {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .trend-card {
+    margin-right: 3px;
+    width: calc(50% - 3px);
+  }
+
+  .img-post {
+    width: 392px;
+  }
+
+  .card-img {
+    width: 390px;
+    margin-right: 25px;
+  }
+
+  .card-content {
+    margin-top: 10px;
+    width: 392px;
+    max-width: 392px;
+  }
+
+  .card {
+    flex-direction: column;
+    margin-top: 64px;
   }
 }
 
@@ -1069,8 +1099,13 @@ a {
 
   .title__wrapper {
     font-size: 4rem;
+    margin-bottom: 209px;
     padding: 83px 25px 0;
     line-height: 1.4;
+  }
+
+  .wrap-main {
+    align-items: initial;
   }
 
   .wrapper {
@@ -1091,8 +1126,9 @@ a {
   }
 
   .trend-card {
-    margin-right: 3px;
-    width: calc(50% - 3px);
+    margin-top: 3px;
+    margin-right: 0px;
+    width: 100%;
   }
 
   .trend-img {
@@ -1109,31 +1145,24 @@ a {
   }
 
   .wrap {
-    padding: 0 35px;
+    padding: 0 15px;
   }
 
   .main {
     margin: 50px 0 63px 0;
   }
 
-  .card {
-    flex-direction: column;
-    margin-top: 64px;
-  }
-
   .card-img {
-    width: 390px;
-    margin-right: 0;
+    width: 330px;
   }
 
   .img-post {
-    width: 392px;
+    width: 100%;
   }
 
   .card-content {
-    margin-top: 10px;
-    width: 392px;
-    max-width: 392px;
+    width: 330px;
+    max-width: 330px;
   }
 
   .card-title {
@@ -1207,13 +1236,6 @@ a {
   .title__wrapper {
     font-size: 2.6rem;
     margin-top: 165px;
-    margin-bottom: 209px;
-  }
-
-  .trend-card {
-    margin-top: 3px;
-    margin-right: 0px;
-    width: 100%;
   }
 
   .wrap_trend {
@@ -1230,10 +1252,6 @@ a {
 
   .trend-img-content {
     padding: 17px 15px 24px;
-  }
-
-  .wrap {
-    padding: 0 15px;
   }
 
   .cards :first-child {
@@ -1256,19 +1274,6 @@ a {
   .card-text {
     font-size: 1.4rem;
     margin-top: 10px;
-  }
-
-  .card-img {
-    width: 330px;
-  }
-
-  .img-post {
-    width: 100%;
-  }
-
-  .card-content {
-    width: 330px;
-    max-width: 330px;
   }
 
   .aside {
