@@ -1214,7 +1214,6 @@ a {
 @media (max-width: 360px) {
   .header {
     background-image: url(../img/banner-mobile.jpg);
-    background-size: contain;
   }
 
   .header__wrapper {
